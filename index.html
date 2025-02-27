@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction</title>
+    <link rel="shortcut icon" href="./Assets/image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.22.0/css/uikit.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="home">
+        <nav class="navbar navbar-expand-lg sticky-top shadow" class="uk-navbar-container" uk-sticky="top: 100; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+            <div class="container lgo">
+                <a class="navbar-brand" href="#">
+                    <img src="./Assets/image/logo@2x.png" alt="#" width="120" height="80"> 
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-light" href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Service
+                      </a>
+                      <ul class="dropdown-menu rounded-0" style="background-color: #03624c; border: none;">
+                        <li class="dropdown">
+                          <a class="dropdown-item" href="#residential">Residential Construction</a>
+                          <ul class="dropdown-menu-1 rounded-0" style="background-color: #03624c;">
+                            <li><a class="dropdown-item" href="#">Building Materials</a></li>
+                            <li><a class="dropdown-item" href="#">Architectural Design</a></li>
+                            <li><a class="dropdown-item" href="#">Flooring & Tiling</a></li>
+                            <li><a class="dropdown-item" href="#">Roofing & Ceilings</a></li>
+                            <li><a class="dropdown-item" href="#">Doors & Windows</a></li>
+                            <li><a class="dropdown-item" href="#">Interior & Exterior Design</a></li>
+                            <li><a class="dropdown-item" href="#">Plumbing & Electrical</a></li>
+                          </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#commercial">Commercial Construction</a>
+                          <ul class="dropdown-menu-2 rounded-0" style="background-color: #03624c;">
+                            <li><a class="dropdown-item" href="#">New Construction</a></li>
+                            <li><a class="dropdown-item" href="#">Renovations & Remodeling</a></li>
+                            <li><a class="dropdown-item" href="#">Interior Fit-Outs</a></li>
+                            <li><a class="dropdown-item" href="#">Site Development</a></li>
+                            <li><a class="dropdown-item" href="#">Project Management</a></li>
+                            <li><a class="dropdown-item" href="#">Sustainability & Green Building</a></li>
+                            <li><a class="dropdown-item" href="#">Permits & Compliance</a></li>
+                            <li><a class="dropdown-item" href="#">Cost Estimation & Budgeting</a></li>
+                            <li><a class="dropdown-item" href="#">Safety & Quality Control</a></li>
+                          </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Industrial Construction</a></li>
+                        <li><a class="dropdown-item" href="#">Foundation & Excavation</a></li>
+                        <li><a class="dropdown-item" href="#">Structural Engineering</a></li>
+                        <li><a class="dropdown-item" href="#">Painting & Coating</a></li>
+                      </ul>
+                    </li>
+            
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Galary</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <!-- slider start -->
+    <section>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="./Assets/image/project1.jpg" class="d-block w-100 img-fluid" alt="Construction Site">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h4 class="text-uppercase fw-bold text-white slide-up" style="font-size: 22px;">Build Your Dream House</h4>
+                      <p class="text-light fw-semibold slide-up">We make your vision a reality with top-notch construction services.</p>
+                      <a href="#contact" class="btn btn-warning text-white fw-bold slide-up" style="text-decoration: none !important; background-color: #03624c; border: none;">Call Now.</a>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="./Assets/image/project2.webp" class="d-block w-100 img-fluid" alt="Construction Work">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h4 class="text-uppercase fw-bold text-white slide-up" style="font-size: 22px;">Professional & Reliable</h4>
+                      <p class="text-light fw-semibold slide-up">Quality work with attention to detail for every project.</p>
+                      <a href="#contact" class="btn btn-warning text-white fw-bold slide-up" style="text-decoration: none !important; background-color: #03624c; border: none;">Get Started</a>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="./Assets/image/project3.jpg" class="d-block w-100 img-fluid" alt="Construction Progress">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h4 class="text-uppercase fw-bold text-white slide-up" style="font-size: 22px;">Trusted by Clients</h4>
+                      <p class="text-light fw-semibold slide-up">Experience excellence in construction and design.</p>
+                      <a href="#contact" class="btn btn-warning text-white fw-bold slide-up" style="text-decoration: none !important; background-color: #03624c; border: none;">Get Started</a>
+                  </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  </section>
+  <section>
+    <div class="container-fluid logo-container text-center">
+        <div class="row justify-content-center g-3">
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center">
+                <img src="./Assets/image/logo01.png" alt="Logo 1" class="img-fluid">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center">
+                <img src="./Assets/image/logo02.png" alt="Logo 2" class="img-fluid">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center">
+                <img src="./Assets/image/logo03.png" alt="Logo 3" class="img-fluid">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center">
+                <img src="./Assets/image/logo04.png" alt="Logo 4" class="img-fluid">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center">
+                <img src="./Assets/image/logo05.png" alt="Logo 5" class="img-fluid">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center">
+                <img src="./Assets/image/logo06.png" alt="Logo 6" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about">
+  <div class="container pt-4">
+      <div>
+        <h5 class="about-title"><span class="about-highlight">About</span> Us.</h5>
+        <p class="text-center text-muted fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, molestiae.</p>
+      </div>
+
+      <!-- First Row -->
+      <div class="row align-items-center mt-5">
+          <div class="col-lg-7">
+              <img src="./Assets/image/slide01.jpg" class="img-fluid about-img" alt="About Image">
+          </div>
+          <div class="col-lg-5 mt-3 mt-lg-0">
+              <h3 class="fw-bold">American Construction</h3>
+              <p class="fs-5">Services Company in 1990's</p>
+              <p class="text-muted about-text">
+                  Settling you has separate supplied bed. Concluded resembled suspected his resources curiosity joy. Led all cottage met enabled attempt through talking delight. Dare he feet my tell busy.
+                  Carriage quitting securing be appetite it declared. High eyes kept so busy feel call in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quam a ipsum facilis odit doloribus vel aperiam qui porro voluptates!
+              </p>
+          </div>
+      </div>
+
+      <!-- Second Row -->
+      <div class="row align-items-center mt-5 flex-column-reverse flex-lg-row">
+          <div class="col-lg-5 mt-3 mt-lg-0">
+              <h3 class="fw-bold">American Construction</h3>
+              <p class="fs-5">Services Company in 1990's</p>
+              <p class="text-muted about-text">
+                  To they four in love. Settling you has separate supplied bed. Concluded resembled suspected his resources curiosity joy. Carriage quitting securing be appetite it declared. High eyes kept so busy feel call in.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quam a ipsum facilis odit doloribus vel aperiam qui porro voluptates!
+              </p>
+          </div>
+          <div class="col-lg-7 mb-5">
+              <img src="./Assets/image/slide01.jpg" class="img-fluid about-img" alt="About Image">
+          </div>
+      </div>
+  </div>
+</section>
+<section id="services">
+  <div class="pt-5">
+    <h5 class="about-title"><span class="about-highlight">Our Construction</span> Services.</h5>
+    <p class="text-center text-muted fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, molestiae.</p>
+  </div>
+  <div class="container">
+    <h2 class="text-start fw-bold text-decoration-underline" id="residential">Residential Construction.</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/building-icon-1.jpg" class="img-fluid rounded" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Building Construction</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/arch.png" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Architectural Design</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/reno.jpg" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Renovation & Remodeling</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/door.png" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Doors & Windows</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/tiles.jpg" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Flooring & Tilling</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/plumbing-electric-.avif" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Plimbing & Electrical</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+    </div>
+    <h2 class="text-start fw-bold text-decoration-underline" id="commercial">Commercial Construction.</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/building-icon-1.jpg" class="img-fluid rounded" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">New Construction</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/arch.png" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Renovations & Remodeling</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/reno.jpg" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Interior Fit-Outs</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/door.png" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Site Development</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/tiles.jpg" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Project Management</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/plumbing-electric-.avif" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Sustainability & Green Building</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/plumbing-electric-.avif" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Permits & Compliance</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/plumbing-electric-.avif" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Cost Estimation & Budgeting</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4 mb-5">
+        <div class="card service-card text-center p-4 shadow-sm">
+            <div class="service-icon"><img src="./Assets/image/plumbing-electric-.avif" class="img-fluid rounded circle" style="height: 100px;width: 100px;" alt=""></div>
+            <h5 class="card-title mt-3 fw-bold" style="color: #03624c;">Safety & Quality Control</h5>
+            <p class="card-text">High-quality and durable construction services for residential and commercial buildings.</p>
+            <a href="#" style="color: #03624c;">Read more..</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="reviews">
+  <div class="pt-5">
+    <h5 class="about-title"><span class="about-highlight">Our Client</span> Reviews.</h5>
+    <p class="text-center text-muted fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, molestiae.</p>
+  </div>
+   <div class="container align-items-center pt-3">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 pt-4">
+        <div class="card reviews-card rounded" style="max-width: 400px;">
+          <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                  <img src="./Assets/image/reviews.png" alt="User Avatar" class="rounded-circle me-3 img-fluid" style="height: 50px;">
+                  <div>
+                      <h5 class="card-title mb-0">Sophia</h5>
+                        <div class="text-warning">
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star-half-stroke fa-2xs" style="color: #FFD43B;"></i>
+                      </div>
+                  </div>
+              </div>
+              <p class="card-text">
+                  This website is amazing! The design is clean, and the user experience is top-notch. Highly recommend it to anyone looking for a great online platform. <a href="#" style="color: #03624c;">Read more..</a>
+              </p>
+              <a href="#"><img src="./Assets/image/Google.svg.webp" alt="" class="img-fluid" style="height: 20px; width: 20px;"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 pt-4">
+        <div class="card reviews-card rounded" style="max-width: 400px;">
+          <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                  <img src="./Assets/image/reviews.png" alt="User Avatar" class="rounded-circle me-3 img-fluid" style="height: 50px;">
+                  <div>
+                      <h5 class="card-title mb-0">John Doe</h5>
+                      <div class="text-warning">
+                        <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-2xs" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-2xs" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-2xs" style="color: #FFD43B;"></i>
+                      </div>
+                  </div>
+              </div>
+              <p class="card-text">
+                This website is amazing! The design is clean, and the user experience is top-notch. Highly recommend it to anyone looking for a great online platform. <a href="#" style="color: #03624c;">Read more..</a>
+            </p>
+            <a href="#"><img src="./Assets/image/Google.svg.webp" alt="" class="img-fluid" style="height: 20px; width: 20px;"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 pt-4">
+        <div class="card reviews-card rounded" style="max-width: 400px;">
+          <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                  <img src="./Assets/image/reviews.png" alt="User Avatar" class="rounded-circle me-3 img-fluid" style="height: 50px;">
+                  <div>
+                      <h5 class="card-title mb-0">Lucas</h5>
+                      <div class="text-warning">
+                        <div class="text-warning">
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star-half-stroke fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star-half-stroke fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star-half-stroke fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star-half-stroke fa-2xs" style="color: #FFD43B;"></i>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+              <p class="card-text">
+                This website is amazing! The design is clean, and the user experience is top-notch. Highly recommend it to anyone looking for a great online platform. <a href="#" style="color: #03624c;">Read more..</a>
+            </p>
+            <a href="#"><img src="./Assets/image/Google.svg.webp" alt="" class="img-fluid" style="height: 20px; width: 20px;"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 pt-4">
+        <div class="card reviews-card rounded" style="max-width: 400px;">
+          <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                  <img src="./Assets/image/reviews.png" alt="User Avatar" class="rounded-circle me-3 img-fluid" style="height: 50px;">
+                  <div>
+                      <h5 class="card-title mb-0">Olivia</h5>
+                      <div class="text-warning">
+                        <div class="text-warning">
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star-half-stroke fa-2xs" style="color: #FFD43B;"></i>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+              <p class="card-text">
+                This website is amazing! The design is clean, and the user experience is top-notch. Highly recommend it to anyone looking for a great online platform.<a href="#" style="color: #03624c;">Read more..</a>
+            </p>
+            <a href="#"><img src="./Assets/image/Google.svg.webp" alt="" class="img-fluid" style="height: 20px; width: 20px;"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 pt-4 mb-5">
+        <div class="card reviews-card rounded" style="max-width: 400px;">
+          <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                  <img src="./Assets/image/reviews.png" alt="User Avatar" class="rounded-circle me-3 img-fluid" style="height: 50px;">
+                  <div>
+                      <h5 class="card-title mb-0">Daniel</h5>
+                      <div class="text-warning">
+                        <div class="text-warning">
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                          <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+              <p class="card-text">
+                This website is amazing! The design is clean, and the user experience is top-notch. Highly recommend it to anyone looking for a great online platform. <a href="#" style="color: #03624c;">Read more..</a>
+            </p>
+            <a href="#"><img src="./Assets/image/Google.svg.webp" alt="" class="img-fluid" style="height: 20px; width: 20px;"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+<section id="gallery" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-4 col-md-12 mb-4">
+        <h5 class="about-title text-start">
+          <span class="about-highlight">Our</span> Project.
+        </h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+          impedit. Consequatur dolorem facere accusantium repellendus vero illo
+          accusamus eveniet at! Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Doloribus qui atque culpa necessitatibus suscipit ex
+          excepturi quae magni? Doloremque eligendi delectus sint libero nobis
+          laboriosam voluptatibus repellendus cum impedit aliquam.
+        </p>
+      </div>
+      <div class="col-lg-8 col-md-12">
+        <div class="uk-position-relative" uk-slideshow="animation: fade; autoplay: true; autoplay-interval: 4000">
+          <ul class="uk-slideshow-items">
+            <li>
+              <img src="./Assets/image/project1.jpg" alt="Project 1" uk-cover>
+            </li>
+            <li>
+              <img src="./Assets/image/project2.webp" alt="Project 2" uk-cover>
+            </li>
+            <li>
+              <img src="./Assets/image/project3.jpg" alt="Project 3" uk-cover>
+            </li>
+          </ul>
+          <div class="uk-position-bottom-center uk-position-small">
+            <ul class="uk-thumbnav">
+              <li uk-slideshow-item="0">
+                <a href="#">
+                  <img src="./Assets/image/project1.jpg" width="100" height="67" alt="Project 1">
+                </a>
+              </li>
+              <li uk-slideshow-item="1">
+                <a href="#">
+                  <img src="./Assets/image/project2.webp" width="100" height="67" alt="Project 2">
+                </a>
+              </li>
+              <li uk-slideshow-item="2">
+                <a href="#">
+                  <img src="./Assets/image/project3.jpg" width="100" height="67" alt="Project 3">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <div class="container-lg pt-4 mt-4">
+      <div class="text-center">
+        <h5 class="about-title text-center">
+          <span class="about-highlight">Contact</span> Now.
+        </h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+          impedit.
+        </p>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-lg-6">
+              <form class="contact">
+                  <label for="email" class="form-label" style="color: #03624c;">Email address :</label>
+                  <div class="mb-4 input-group">
+                      <span class="input-group-text rounded-0 border-success">
+                          <i class="bi bi-envelope-fill"></i>
+                      </span>
+                      <input type="text" class="form-control rounded-0 border-success" id="email" placeholder="e.g. mario@example.com">
+                  </div>
+                  <label for="name" class="form-label" style="color: #03624c;">Name :</label>
+                  <div class="mb-4 input-group">
+                      <span class="input-group-text rounded-0 border-success">
+                          <i class="bi bi-person-fill"></i>
+                      </span>
+                      <input type="text" class="form-control rounded-0 border-success" id="name" placeholder="e.g. Mario">
+                  </div>
+                  <label for="name" class="form-label" style="color: #03624c;">Phone :</label>
+                  <div class="mb-4 input-group">
+                      <span class="input-group-text rounded-0 border-success">
+                        <i class="bi bi-telephone-fill"></i>
+                      </span>
+                      <input type="text" class="form-control rounded-0 border-success" id="name" placeholder="+8001000000000">
+                  </div>
+                  <div class="form-floating mb-4 mt-5">
+                      <textarea id="query" class="form-control rounded-0 border-success" style="height: 140px;"></textarea>
+                      <label for="query" style="color: #03624c;">Your query...</label>
+                  </div>
+                  <div class="mb-4 text-center">
+                      <button type="submit" class="btn btn-outline-success rounded-0">Submit</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+  <footer class="footer">
+      <div class="container mt-0">
+          <div class="row">
+              <div class="col-md-4">
+                  <h5 class="text-white">About Us</h5>
+                  <p>We provide top-notch construction services, ensuring safety and durability in every project.</p>
+              </div>
+              <div class="col-md-4">
+                  <h5 class="text-white">Quick Links</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Projects</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <h5 class="text-white">Follow Us</h5>
+                  <div class="social-icons">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="text-center mt-3">
+              <p>&copy; 2025 Construction Co. All rights <span class="text-white fw-bold">Amb Soikat.</span></p>
+          </div>
+      </div>
+      <div class="text-end top"><a href="#" style="background-color: black; margin-right: 30px; padding: 13px; color: white;" uk-totop uk-scroll></a></div>
+  </footer>
+  
+    <script src="./Assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.22.0/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.24/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
